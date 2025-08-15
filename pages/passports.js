@@ -1,8 +1,8 @@
 export default function Passports() {
   return (
-    <div style={{ padding: 40 }}>
-      <h2>🌍 Digital Passports</h2>
-      <p>Issued to authorized explorers. View your stamps below.</p>
+    <div className="p-8">
+      <h1 className="text-3xl font-semibold text-gray-800">🌍 Passports</h1>
+      <p className="mt-4 text-gray-600">Feature coming soon.</p>
     </div>
   );
 }

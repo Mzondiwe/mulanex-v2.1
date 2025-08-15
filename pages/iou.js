@@ -1,17 +1,8 @@
-import { useState } from 'react';
-
-export default function IOU() {
-  const [name, setName] = useState('');
-  const [amount, setAmount] = useState('');
-
+export default function IOUGenerator() {
   return (
-    <div style={{ padding: 40 }}>
-      <h2>🧾 IOU Generator</h2>
-      <input placeholder="Name" onChange={e => setName(e.target.value)} />
-      <input placeholder="Amount" type="number" onChange={e => setAmount(e.target.value)} />
-      <p style={{ marginTop: 20 }}>
-        IOU for <strong>{name || '___'}</strong>: <strong>{amount || '___'}</strong> Kwacha
-      </p>
+    <div className="p-8">
+      <h1 className="text-3xl font-semibold text-gray-800">📑 IOU Generator</h1>
+      <p className="mt-4 text-gray-600">Feature coming soon.</p>
     </div>
   );
 }

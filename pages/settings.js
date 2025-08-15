@@ -1,8 +1,8 @@
 export default function Settings() {
   return (
-    <div style={{ padding: 40 }}>
-      <h2>⚙️ User Settings</h2>
-      <p>Adjust notification preferences, themes, and more.</p>
+    <div className="p-8">
+      <h1 className="text-3xl font-semibold text-gray-800">⚙️ Settings</h1>
+      <p className="mt-4 text-gray-600">Feature coming soon.</p>
     </div>
   );
 }
